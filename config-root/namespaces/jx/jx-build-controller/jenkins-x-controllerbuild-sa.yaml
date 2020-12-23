@@ -1,0 +1,14 @@
+# Source: jx-build-controller/templates/serviceaccount.yaml
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: jenkins-x-controllerbuild
+  labels:
+    app: jx-build-controller
+    chart: jx-build-controller-0.0.18
+    release: jx-build-controller
+    heritage: Helm
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  annotations:
+    eks.amazonaws.com/role-arn: arn:aws:iam::834667370484:role/test-jenkins-x-build-ctrl
+  namespace: jx
