@@ -16,4 +16,4 @@ spec:
               serviceName: nexus
               servicePort: 80
             path: "/"
-      host: nexus-jx.aacb3fb943e324e2f8cc5d24574f599e-8c7484d81c94a67a.elb.us-east-1.amazonaws.com
+      host: nexus-jx.build.regentmarkets.com
