@@ -41,7 +41,7 @@ data:
         - needs-rebase
         repos:
         - deriv-org/jx3-eks-vault
-      target_url: http://dashboard-jx.
+      target_url: http://dashboard-jx.aacb3fb943e324e2f8cc5d24574f599e-8c7484d81c94a67a.elb.us-east-1.amazonaws.com
 kind: ConfigMap
 metadata:
   creationTimestamp: null
