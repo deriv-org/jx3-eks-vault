@@ -1,0 +1,22 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: goku-bot-user
+    provider: github
+    repository: new-lang
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  name: goku-bot-user-new-lang
+  namespace: jx
+spec:
+  httpCloneURL: https://github.com/goku-bot-user/new-lang.git
+  org: goku-bot-user
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: new-lang
+  scheduler:
+    kind: ""
+    name: in-repo
+  url: https://github.com/goku-bot-user/new-lang
