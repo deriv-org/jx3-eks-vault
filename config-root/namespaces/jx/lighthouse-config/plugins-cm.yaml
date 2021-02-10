@@ -6,6 +6,10 @@ data:
       repos:
       - deriv-org/jx3-eks-vault
       require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
+      - goku-bot-user/new-lang
+      require_self_approval: true
     cat: {}
     cherry_pick_unapproved: {}
     config_updater:
@@ -37,6 +41,22 @@ data:
       - cat
       - dog
       - pony
+      goku-bot-user/new-lang:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
     requiresig: {}
     sigmention: {}
     size:
@@ -49,6 +69,11 @@ data:
     - repos:
       - deriv-org/jx3-eks-vault
       trusted_org: todo
+    - repos:
+      - goku-bot-user/new-lang
+      trusted_org: todo
+    welcome:
+    - message_template: Welcome
 kind: ConfigMap
 metadata:
   creationTimestamp: null
