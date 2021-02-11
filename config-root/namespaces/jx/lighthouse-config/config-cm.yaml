@@ -8,6 +8,7 @@ data:
     in_repo_config:
       enabled:
         deriv-org/jx3-eks-vault: true
+        goku-bot-user/new-go: true
         goku-bot-user/new-lang: true
     plank: {}
     pod_namespace: jx
@@ -21,6 +22,7 @@ data:
         skip-unknown-contexts: false
       merge_method:
         deriv-org/jx3-eks-vault: merge
+        goku-bot-user/new-go: merge
         goku-bot-user/new-lang: merge
       queries:
       - labels:
@@ -33,6 +35,7 @@ data:
         - needs-rebase
         repos:
         - deriv-org/jx3-eks-vault
+        - goku-bot-user/new-go
         - goku-bot-user/new-lang
       - labels:
         - updatebot
@@ -44,6 +47,7 @@ data:
         - needs-rebase
         repos:
         - deriv-org/jx3-eks-vault
+        - goku-bot-user/new-go
         - goku-bot-user/new-lang
       target_url: http://dashboard-jx.build.regentmarkets.com
 kind: ConfigMap
