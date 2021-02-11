@@ -8,6 +8,10 @@ data:
       require_self_approval: true
     - lgtm_acts_as_approve: true
       repos:
+      - goku-bot-user/new-go
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
       - goku-bot-user/new-lang
       require_self_approval: true
     cat: {}
@@ -26,6 +30,22 @@ data:
     plugins:
       deriv-org/jx3-eks-vault:
       - config-updater
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
+      goku-bot-user/new-go:
       - approve
       - assign
       - blunderbuss
@@ -68,6 +88,9 @@ data:
     triggers:
     - repos:
       - deriv-org/jx3-eks-vault
+      trusted_org: todo
+    - repos:
+      - goku-bot-user/new-go
       trusted_org: todo
     - repos:
       - goku-bot-user/new-lang
