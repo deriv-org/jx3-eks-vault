@@ -8,6 +8,7 @@ spec:
     provider: https://github.com
     providerKind: github
     repositories:
+    - name: binary-bot
     - name: new-go
     - name: new-lang
     scheduler: in-repo
