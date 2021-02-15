@@ -45,7 +45,7 @@ jxRequirements:
       enabled: false
       production: false
   pipelineUser:
-    username: goku-bot-user
+    username: gokulakrishna
   repository: nexus
   secretStorage: vault
   storage:

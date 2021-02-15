@@ -64,7 +64,7 @@ spec:
             - name: "GIT_SERVER"
               value: "https://github.com"
             - name: "GIT_USER"
-              value: goku-bot-user
+              value: gokulakrishna
             - name: "GIT_TOKEN"
               valueFrom:
                 secretKeyRef:

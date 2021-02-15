@@ -30,7 +30,7 @@ spec:
     gitServer: https://github.com
     helmTemplate: true
     kubeProvider: "eks"
-    pipelineUsername: "goku-bot-user"
+    pipelineUsername: "gokulakrishna"
     pipelineUserEmail: "jenkins-x@googlegroups.com"
     prowConfig: Scheduler
     importMode: YAML
