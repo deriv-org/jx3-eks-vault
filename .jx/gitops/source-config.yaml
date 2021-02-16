@@ -11,6 +11,7 @@ spec:
     - name: binary-bot
     - name: new-go
     - name: new-lang
+    - name: toto
     scheduler: in-repo
   - owner: deriv-org
     provider: https://github.com
