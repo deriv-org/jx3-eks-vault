@@ -12,3 +12,9 @@ spec:
     - name: new-go
     - name: new-lang
     scheduler: in-repo
+  - owner: deriv-org
+    provider: https://github.com
+    providerKind: github
+    repositories:
+    - name: gk-go
+    scheduler: in-repo
