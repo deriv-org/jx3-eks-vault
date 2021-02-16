@@ -1,0 +1,22 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: deriv-org
+    provider: github
+    repository: test-d-go
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  name: deriv-org-test-d-go
+  namespace: jx
+spec:
+  httpCloneURL: https://github.com/deriv-org/test-d-go.git
+  org: deriv-org
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: test-d-go
+  scheduler:
+    kind: ""
+    name: in-repo
+  url: https://github.com/deriv-org/test-d-go

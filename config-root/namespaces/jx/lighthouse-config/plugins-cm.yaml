@@ -8,6 +8,10 @@ data:
       require_self_approval: true
     - lgtm_acts_as_approve: true
       repos:
+      - deriv-org/test-d-go
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
       - goku-bot-user/binary-bot
       require_self_approval: true
     - lgtm_acts_as_approve: true
@@ -34,6 +38,22 @@ data:
     plugins:
       deriv-org/jx3-eks-vault:
       - config-updater
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
+      deriv-org/test-d-go:
       - approve
       - assign
       - blunderbuss
@@ -108,6 +128,9 @@ data:
     triggers:
     - repos:
       - deriv-org/jx3-eks-vault
+      trusted_org: todo
+    - repos:
+      - deriv-org/test-d-go
       trusted_org: todo
     - repos:
       - goku-bot-user/binary-bot
