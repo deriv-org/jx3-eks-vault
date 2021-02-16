@@ -1,0 +1,22 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: goku-bot-user
+    provider: github
+    repository: toto
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  name: goku-bot-user-toto
+  namespace: jx
+spec:
+  httpCloneURL: https://github.com/goku-bot-user/toto.git
+  org: goku-bot-user
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: toto
+  scheduler:
+    kind: ""
+    name: in-repo
+  url: https://github.com/goku-bot-user/toto
