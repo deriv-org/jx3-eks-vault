@@ -12,6 +12,7 @@ data:
         goku-bot-user/binary-bot: true
         goku-bot-user/new-go: true
         goku-bot-user/new-lang: true
+        goku-bot-user/toto: true
     plank: {}
     pod_namespace: jx
     prowjob_namespace: jx
@@ -28,6 +29,7 @@ data:
         goku-bot-user/binary-bot: merge
         goku-bot-user/new-go: merge
         goku-bot-user/new-lang: merge
+        goku-bot-user/toto: merge
       queries:
       - labels:
         - approved
@@ -43,6 +45,7 @@ data:
         - goku-bot-user/binary-bot
         - goku-bot-user/new-go
         - goku-bot-user/new-lang
+        - goku-bot-user/toto
       - labels:
         - updatebot
         missingLabels:
@@ -57,6 +60,7 @@ data:
         - goku-bot-user/binary-bot
         - goku-bot-user/new-go
         - goku-bot-user/new-lang
+        - goku-bot-user/toto
       target_url: http://dashboard-jx.build.regentmarkets.com
 kind: ConfigMap
 metadata:
