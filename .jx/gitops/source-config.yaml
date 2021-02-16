@@ -11,4 +11,5 @@ spec:
     - name: binary-bot
     - name: new-go
     - name: new-lang
+    - name: test-gol
     scheduler: in-repo
