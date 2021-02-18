@@ -29,7 +29,7 @@ jxRequirements:
     project: "834667370484"
     provider: eks
     region: us-east-1
-    registry: ecr.io
+    registry: ghcr.io
   environments:
   - key: dev
     owner: deriv-org
