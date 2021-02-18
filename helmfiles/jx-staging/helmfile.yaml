@@ -1,0 +1,11 @@
+filepath: ""
+namespace: jx-staging
+repositories:
+- name: dev
+  url: http://chartmuseum-jx.build.regentmarkets.com/
+releases:
+- chart: dev/sta
+  version: 0.0.1
+  name: sta
+templates: {}
+renderedvalues: {}
