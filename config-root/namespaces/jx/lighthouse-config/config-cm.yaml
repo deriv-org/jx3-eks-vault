@@ -10,6 +10,7 @@ data:
         deriv-org/jx3-eks-vault: true
         deriv-org/test-d-go: true
         goku-bot-user/binary-bot: true
+        goku-bot-user/elo: true
         goku-bot-user/new-go: true
         goku-bot-user/new-lang: true
         goku-bot-user/toto: true
@@ -27,6 +28,7 @@ data:
         deriv-org/jx3-eks-vault: merge
         deriv-org/test-d-go: merge
         goku-bot-user/binary-bot: merge
+        goku-bot-user/elo: merge
         goku-bot-user/new-go: merge
         goku-bot-user/new-lang: merge
         goku-bot-user/toto: merge
@@ -43,6 +45,7 @@ data:
         - deriv-org/jx3-eks-vault
         - deriv-org/test-d-go
         - goku-bot-user/binary-bot
+        - goku-bot-user/elo
         - goku-bot-user/new-go
         - goku-bot-user/new-lang
         - goku-bot-user/toto
@@ -58,6 +61,7 @@ data:
         - deriv-org/jx3-eks-vault
         - deriv-org/test-d-go
         - goku-bot-user/binary-bot
+        - goku-bot-user/elo
         - goku-bot-user/new-go
         - goku-bot-user/new-lang
         - goku-bot-user/toto
