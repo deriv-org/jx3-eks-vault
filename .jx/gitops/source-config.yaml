@@ -12,6 +12,7 @@ spec:
     - name: elo
     - name: new-go
     - name: new-lang
+    - name: sta
     - name: toto
     scheduler: in-repo
   - owner: deriv-org
