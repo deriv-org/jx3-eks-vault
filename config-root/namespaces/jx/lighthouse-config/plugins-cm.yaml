@@ -16,6 +16,10 @@ data:
       require_self_approval: true
     - lgtm_acts_as_approve: true
       repos:
+      - goku-bot-user/elo
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
       - goku-bot-user/new-go
       require_self_approval: true
     - lgtm_acts_as_approve: true
@@ -74,6 +78,22 @@ data:
       - dog
       - pony
       goku-bot-user/binary-bot:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
+      goku-bot-user/elo:
       - approve
       - assign
       - blunderbuss
@@ -154,6 +174,9 @@ data:
       trusted_org: todo
     - repos:
       - goku-bot-user/binary-bot
+      trusted_org: todo
+    - repos:
+      - goku-bot-user/elo
       trusted_org: todo
     - repos:
       - goku-bot-user/new-go
