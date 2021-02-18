@@ -9,6 +9,7 @@ spec:
     providerKind: github
     repositories:
     - name: binary-bot
+    - name: elo
     - name: new-go
     - name: new-lang
     - name: toto
