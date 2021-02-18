@@ -2,9 +2,9 @@
 apiVersion: jenkins.io/v1
 kind: Release
 metadata:
-  creationTimestamp: "2021-02-18T06:04:49Z"
+  creationTimestamp: "2021-02-18T09:25:05Z"
   deletionTimestamp: null
-  name: 'sta-0.0.1'
+  name: 'sta-0.0.2'
   namespace: jx-staging
   labels:
     gitops.jenkins-x.io/pipeline: 'namespaces'
@@ -18,8 +18,8 @@ spec:
         email: jenkins-x@googlegroups.com
         name: jenkins-x-bot
       message: |
-        chore: release 0.0.1
-      sha: 723bdecaedc43ca69801bc216d92b458a3847a97
+        chore: release 0.0.2
+      sha: bf43560140ae53598d0cc13a8c2d9d3940e8d9ff
     - author:
         email: jenkins-x@googlegroups.com
         name: jenkins-x-bot
@@ -29,7 +29,7 @@ spec:
         name: jenkins-x-bot
       message: |
         chore: add variables
-      sha: 85cecab3e0c88d334499b077de0da9b4a3d67111
+      sha: 93e89c4825d4dbb9457072c7a07a56e6327d9249
     - author:
         email: krishnagokula5e@gmail.com
         name: Gokula Krishna
@@ -38,12 +38,12 @@ spec:
         email: krishnagokula5e@gmail.com
         name: Gokula Krishna
       message: |
-        chore: Jenkins X build pack
-      sha: ecc97609dfeaf42e4152ee32e2207ff3f4bb076a
+        rebuild
+      sha: 8440dabbd830443ad105142ce0364a71be1ee32f
   gitHttpUrl: https://github.com/goku-bot-user/sta
   gitOwner: goku-bot-user
   gitRepository: sta
   name: 'sta'
-  releaseNotesURL: https://github.com/goku-bot-user/sta/releases/tag/v0.0.1
-  version: v0.0.1
+  releaseNotesURL: https://github.com/goku-bot-user/sta/releases/tag/v0.0.2
+  version: v0.0.2
 status: {}
