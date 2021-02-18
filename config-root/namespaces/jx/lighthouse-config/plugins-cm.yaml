@@ -28,6 +28,10 @@ data:
       require_self_approval: true
     - lgtm_acts_as_approve: true
       repos:
+      - goku-bot-user/sta
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
       - goku-bot-user/toto
       require_self_approval: true
     cat: {}
@@ -141,6 +145,22 @@ data:
       - cat
       - dog
       - pony
+      goku-bot-user/sta:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
       goku-bot-user/toto:
       - approve
       - assign
@@ -183,6 +203,9 @@ data:
       trusted_org: todo
     - repos:
       - goku-bot-user/new-lang
+      trusted_org: todo
+    - repos:
+      - goku-bot-user/sta
       trusted_org: todo
     - repos:
       - goku-bot-user/toto
