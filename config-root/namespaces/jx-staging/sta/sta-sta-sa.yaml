@@ -1,0 +1,8 @@
+# Source: sta/templates/sa.yaml
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: sta-sta
+  namespace: jx-staging
+  labels:
+    gitops.jenkins-x.io/pipeline: 'namespaces'
